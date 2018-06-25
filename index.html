@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>WebAgency</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section id="presentation">
+            <div id="logo"><img src="logo.png"></div>
+            <div id="menu1">
+                <ul id=menufixed>
+                    <li><a href="#">Accueil</a>
+                    <li><a href="#">Services</a>
+                    <li><a href="#">Portfolio</a>
+                    <li><a href="#">Contact</a>
+                </ul>
+            </div>
+    </section>
+    <section id="carrousel">
+        <div id="slider">
+            <figure>
+                <img src="bg1.png" alt>
+                <figcaption>
+                    <button class="buttoncarrousel" type="submit" >Plus d'infos</button>
+                </figcaption>
+                <img src="bg2.jpg" alt>
+            </figure>
+        </div>
+    </section>
+    <hr>
+    <section id="services">
+        <h2>NOS SERVICES</h2>
+        <p>Avec WebAgency accéder à de nombreux services qui permettent de booster votre site et son efficacité auprès de vos utilisateurs !
+        </p>
+        <div id="preservices">
+            <div id="ecran"><img src="ecran.png" alt="ecran"></div>
+            <div id="servicesdetails">
+                <div class="explication">
+                    <div class="icons">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <h4>UX design</h4>
+                        <p>Simplifier votre site internet et rendez le accesible pour vos utilisateurs.</p>
+                    </div>
+                </div>
+                <div class="explication">
+                    <div class="icons">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div>
+                        <h4>UI design</h4>
+                        <p>Rendez votre site intuitif et attractif avec des designs tendances et originaux. </p>
+                    </div>
+                </div>
+                <div class="explication">
+                    <div class="icons">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <div>
+                        <h4>SEO</h4>
+                        <p>Soyez visible sur les navigateurs de recherches grâce à un référencement efficace.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="projets">
+        <h4>NOS PROJETS</h4>
+        <p>Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes</p>
+        <div>
+            <ul id="navworks">
+                <li><a href="#"> Works</a></li>
+                <li><a href="#">Creative</a></li>
+                <li><a href="#">Corporate</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </div>
+        <div id="part1">
+            <div><img src="01.jpg" alt=""></div>
+            <div><img src="02.jpg" alt=""></div>
+            <div><img src="03.jpg" alt=""></div>
+            <div><img src="04.jpg" alt=""></div>      
+        </div>
+        <div id="part2">
+            <div><img src="05.jpg" alt=""></div>
+            <div><img src="06.jpg" alt=""></div>
+            <div><img src="07.jpg" alt=""></div>
+            <div><img src="08.jpg" alt=""></div>
+        </div>
+
+    </section>
+    <hr>
+    <section id="contact">
+        <div class="formulaire">
+            <h3>Contact Info</h3>
+            <p>WebAgency SAS <br />
+            25 Rue d'Hauteville 75010 Paris<br />
+            Tel : 01 02 03 04 05 </p>
+            <div class="partform">
+                <form class="" method="post" action="page.php" onsubmit="return verifForm(this)">
+                    <div><input type="text" name="pseudo"  value="Name" onblur="verifPseudo(this)" /></div>
+                    <div><input type="text" name="mail" value="Email" onblur="verifMail(this)"/></div>
+                    <div><input type="text" name="sujet" value="Subject"/> </div>
+                    <div><textarea name="lemessage" rows="6" cols="40" onblur="verifMessage(this)">Message</textarea></div>
+                    <div><input type="submit" name="message" value="Send Message"/></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+</body>
+</html>

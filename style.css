@@ -1,0 +1,133 @@
+@media all and (max-width:480px){
+    body{
+        width: 100%;
+    }
+}
+@media (min-width:480px) and (max-width: 780px);{
+    body{
+        width: 100%;
+    }
+}
+@media (min-width:781px) and (max-width: 979px);{
+    body{
+        width: 100%;
+    }
+}
+
+#presentation{
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    height: 80px;
+    background-color: white;
+    width: 100%;
+  }
+#logo{
+    margin-left: 100px;
+}
+#menu1{
+    margin-left: 1900px;
+    margin-top: 10px;
+}
+#menufixed{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    list-style: none;
+    font-family: 'Roboto-Regular';
+}
+#menufixed a{
+      text-decoration: none;
+      color: #807f7f;
+      padding-top: 20px;
+  }
+#menufixed a:hover{
+    border-top: 4px solid #5CADD3;
+    color: rgb(85, 85, 85);
+}
+   
+div#slider{ 
+    width: 100%;  
+    overflow: hidden;
+ } 
+div#slider figure {
+    position: relative; 
+    width: 200%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+    <<<-animation: 15s slidy infinite;
+  }
+div#slider figure img { 
+      width: 50%; 
+      height: auto; 
+      float: left; 
+  }
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: 0%; }
+    45% { left: 0%; }
+    50% { left: 0%; }
+    70% { left: -100%; }
+    75% { left: -100%; }
+    95% { left: -100%; }
+    100% { left: -100%; }
+  }
+
+ @font-face {
+	font-family: 'Roboto-Bold';
+    font-weight: bold;
+    src: url('Roboto-Bold.ttf');
+    font-family: 'fontawesome-webfont';
+    src: url('fontawesome-webfont.ttf');
+    font-family: 'Roboto-Regular';
+    src: url('Roboto-Regular.ttf');
+}
+h2{
+    font-family: 'Roboto-Bold',Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+#preservices{
+    display: flex;
+}
+#part1{
+    display: flex;
+}
+#part2{
+    display: flex;
+}
+#contact{
+    background-image: url(map.png);
+    
+}
+.partform{
+    display: flex;
+}
+.icons{
+    height: 50px;
+    color: blue;
+}
+.explication{
+    display: flex;
+}
+figcaption{
+    position: absolute;
+}
+.buttoncarrousel{
+    margin-top: 610px;
+    margin-left: 415px;
+    background-color: #43ADD8;
+    border: 1px solid #43ADD8;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;  
+    width: 200px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.buttoncarrousel:hover {
+    background-color: rgb(47, 155, 198);
+    border: 1px solid rgb(47, 155, 198);
